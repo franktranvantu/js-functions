@@ -1,1 +1,0 @@
-Now that you've learned the basics of functions, it's time to create and call a function.
