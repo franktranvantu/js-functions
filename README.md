@@ -1,5 +1,3 @@
-Functions can also give something back when they finish. 
+Functions often need specific information to perform a task. 
 
-This is called "returning a value," and it's common when working with functions. 
-
-To return a value from a function, use the return keyword, which creates what's called a "return statement."
+In addition to getting information from a function, you can send information to a function to change how that function works.
