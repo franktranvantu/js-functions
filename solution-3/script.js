@@ -1,6 +1,8 @@
-// Call the new sayHi function you just created.
-function sayHi() {
-  alert('Hi');
+// Finally, call the getYear function.
+// Store the returned value of the function in a new variable named yearToday.
+function getYear() {
+  const year = new Date().getFullYear();
+  return year;
 }
 
-sayHi();
+const yearToday = getYear();

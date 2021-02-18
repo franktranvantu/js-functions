@@ -1,5 +1,4 @@
-// Create a function named sayHi.
-// Don't put any code inside the function yet, only create the basic structure with an empty code block.
-function sayHi() {
+ // Create a function named getYear. Do not add any code inside the function yet.
+ function getYear() {
 
-}
+ }
