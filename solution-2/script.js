@@ -8,5 +8,4 @@ function max(first, second) {
   }
 }
 
-const max = max(1, 2);
-console.log(max);
+console.log(max(1, 2));
