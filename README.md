@@ -1,3 +1,3 @@
-Learn how arrow functions provide a special, more concise syntax for creating functions. 
+JavaScript lets you assign default values to your function parameters. 
 
-Arrow functions are similar to function expressions; they're appropriately called "arrow function expressions."
+That way, if, for any reason, you do not pass a specific argument to a function, the function uses (or falls back to) the default value.
