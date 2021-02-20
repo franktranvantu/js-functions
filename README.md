@@ -1,1 +1,1 @@
-JavaScript provides separate "scopes" for each function. Any variables created within a function are not accessible outside the function, and cannot interact variables created in another function.
+There is another syntax for creating a function that is called a "function expression."
