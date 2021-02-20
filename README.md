@@ -1,3 +1,3 @@
-Functions often need specific information to perform a task. 
+Functions can accept more than one argument. 
 
-In addition to getting information from a function, you can send information to a function to change how that function works.
+When calling a function, you're able to pass multiple arguments to the function; each argument gets stored in a separate parameter and used as a discrete variable within the function.
