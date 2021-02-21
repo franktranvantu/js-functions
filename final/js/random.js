@@ -5,9 +5,15 @@
  * @param {number} upper - The highest number value.
  * @return {number} The random number value.
  */
-
-Math.floor(Math.random() * (6 - 1 + 1)) + 1;
+function getRandomNumber(lower, upper = 100) {
+  if (isNaN(lower) || isNaN(upper)) {
+    throw Error('Both arguments must be numbers.');
+  }
+  return Math.floor(Math.random() * (lower - upper + 1)) + lower;
+}
 
 // Call the function and pass it different values
-
+console.log(getRandomNumber(1, 'six'));
+console.log(`${getRandomNumber(10)} is a random number between 10 and 100`);
+console.log(getRandomNumber(200, 500));
 
